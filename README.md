@@ -22,12 +22,14 @@ There are 4 effects included in the example - however, only 2 are enabled by def
   This effect is intended to demonstrate how to centre the steering of the wheel when the vehicle accelerates. However, it does not currently work.
 
 The Dampening and Sine effect are added to the player Pawn via the `JoystickForceFeedbackComponent`.  
-This component handles creating, managing and destroying the effects for each (on `BeginPlay` by default) Joystick.
+This component handles creating, managing and destroying the effects for each Joystick.
 
 ## Configuration
 
 ### Component
 
+- **InstanceId**  
+  Instance of the Joystick to associate the Effect to. If set to `-1`, the effect will be applied to all Joysticks.
 - **AutoInitialise**  
   Initialise the effect with the HapticDeviceManager.  
   _Required before starting an effect_
@@ -38,6 +40,8 @@ This component handles creating, managing and destroying the effects for each (o
 
 ### Effect
 
+- **InstanceId**  
+  Instance of the Joystick to associate the Effect to. If set to `-1`, the effect will be applied to all Joysticks.
 - **AutoInitialise**  
   Initialise the effect with the HapticDeviceManager.  
   _Required before starting an effect_
