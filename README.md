@@ -4,6 +4,9 @@ This repo is an example repository of how to make use of the [JoystickPlugin](ht
 
 The level and assets are from the Vehicle Template in Unreal Engine. This content is owned by Epic Games.
 
+**NOTE:**  
+This example plugin does not come with binaries included. You will need to download the latest release from [here](https://github.com/JaydenMaalouf/JoystickPlugin/releases) and copy the `Binaries/` and `Intermediate/` folders into this project.
+
 ## How it works
 
 The example effects are located in [Content/Effects](https://github.com/JaydenMaalouf/JoystickExample/tree/main/Content/Effects)  
