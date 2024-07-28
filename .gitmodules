@@ -1,0 +1,3 @@
+[submodule "Plugins/JoystickPlugin"]
+	path = Plugins/JoystickPlugin
+	url = https://github.com/JaydenMaalouf/JoystickPlugin.git
